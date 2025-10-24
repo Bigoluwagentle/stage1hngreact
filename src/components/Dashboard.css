@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#dashboard{
+    > #container{
+        display: flex;
+        > aside{
+            width: 20%;
+            min-height: 100vh;
+            background-color: #2563EB;
+            padding-left: 20px;
+            > h1{
+                color: #FFF;
+                font-size: 2.5rem;
+                margin-bottom: 50px;
+                margin-top: 20px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+            > div{
+                display: flex;
+                min-height: 80vh;
+                flex-direction: column;
+                > nav{
+                    flex: 1;
+                    > h4{
+                        margin-right: 15px;
+                        font-size: 1.2rem;
+                        padding: 20px;
+                        border-radius: 5px;
+                        cursor: pointer;
+                        margin-bottom: 30px;
+                        background-color: #F9FAFB;
+                        font-family: Arial, Helvetica, sans-serif;
+                    }
+                }
+                > h4{
+                    margin-right: 15px;
+                    font-size: 1.2rem;
+                    padding: 20px;
+                    border-radius: 5px;
+                    cursor: pointer;
+                    color: white;
+                    background-color: rgb(244, 20, 20);
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+            }
+        }
+        > main{
+            flex: 1;
+            min-height: 100vh;
+            background-color: #F9FAFB;
+            padding-left: 20px;
+            > div{
+                width: 98%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+                > h1{
+                    margin-top: 10px;
+                    margin-bottom: 20px;
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                }
+            }
+            > section{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                width: 98%;
+                > article{
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    width: 45%;
+                    cursor: pointer;
+                    min-height: 40vh;
+                    margin-bottom: 30px;
+                    border-radius: 8px;
+                    background-color: #FFF;
+                    box-shadow: 0px 0px 10px #2563EB;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 20px;
+                    > i{
+                        margin-top: 20px;
+                        font-size: 3rem;
+                    }
+                    > h4{
+                        font-family: Verdana, Geneva, Tahoma, sans-serif;
+                        font-size: 1.5rem;
+                    }
+                    > p{
+                        font-size: 2rem;
+                        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:900px){
+    #dashboard{
+        #container{
+            > aside{
+                display: none;
+                
+            }
+            > main{
+                padding-left: 0px;
+                > div{
+                    width: 100%;
+                    align-items: center;
+                    > h1{
+                        font-size: 1.4rem;
+                    }
+                    > h2{
+                        font-size: 1rem;
+                    }
+                }
+                > section{
+                    flex-direction: column;
+                    align-items: center;
+                    margin-top: 50px;
+                    > article{
+                        width: 95%;
+                    }
+                }
+            }
+        }
+    }
+}
