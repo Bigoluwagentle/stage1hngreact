@@ -14,7 +14,6 @@ const TicketList = () => {
     status: "",
   });
 
-  // ✅ Check login and load tickets
   useEffect(() => {
     const session = localStorage.getItem("ticketapp_session");
     const storedUser = JSON.parse(localStorage.getItem("ticketapp_user"));

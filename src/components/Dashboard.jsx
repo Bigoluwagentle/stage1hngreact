@@ -66,19 +66,19 @@ const Dashboard = () => {
 
           <section>
             <article>
-              <i className="fa-solid fa-square-plus"></i>
+              <i class="fa-solid fa-ticket"></i>
               <h4>Total Tickets</h4>
               <p>{ticketStats.total}</p>
             </article>
 
             <article>
-              <i className="fa-solid fa-square-plus"></i>
+              <i class="fa-brands fa-opera"></i>
               <h4>Open Tickets</h4>
               <p>{ticketStats.open}</p>
             </article>
 
             <article>
-              <i className="fa-solid fa-square-plus"></i>
+              <i class="fa-brands fa-resolving"></i>
               <h4>Resolved Tickets</h4>
               <p>{ticketStats.resolved}</p>
             </article>
