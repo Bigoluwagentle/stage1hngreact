@@ -19,6 +19,7 @@ const LandingPage = () => {
 
             <main>
                 <div>
+                    <aside></aside>
                     <h1>Manage Your Ticket with Ease</h1>
                     <p>Track, update, and resolve issues faster.</p>
                     <nav>
@@ -29,6 +30,7 @@ const LandingPage = () => {
                 <img src={Hero} alt="" />
             </main>
 
+            <h1>How it works</h1>
             <section>
                 <article>
                     <i class="fa-solid fa-square-plus"></i>
@@ -46,7 +48,7 @@ const LandingPage = () => {
                     <p>Close issues faster with intuitive tools that simplify communication and resolution. Boost team efficiency effortlessly.</p>
                 </article>
             </section>
-
+            <h1>What our client say</h1>
             <summary>
                 <section>
                     <img src={Image} alt="image" />

@@ -72,6 +72,13 @@ const Sign = () => {
           </p>
         </nav>
       </form>
+      <footer>
+          <h4>Ticketly</h4>
+          <p>Privacy Policy</p>
+          <p>Terms</p>
+          <p>&copy; copyright 2025 Ticketly</p>
+      </footer>
+      <p>Code with Love and Peace by AbdulMalik</p>
     </div>
   );
 };

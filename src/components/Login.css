@@ -58,6 +58,29 @@
             }
         }
     }
+    footer{
+        margin-top: 100px;
+        width: 100%;
+        min-height: 30vh;
+        background-color: #2563EB;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        color: #FFF;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        > h4{
+            font-size: 3rem;
+        }
+        + p{
+            margin-top: 20px;
+            text-align: center;
+            color: #000;
+            letter-spacing: 10px;
+            word-spacing: 20px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    }
 }
 @media screen and (max-width:700px){
     #login{
